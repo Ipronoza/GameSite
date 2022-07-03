@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="block"></div>
+        <div class="pila">
+            <img id="pila" src="pila.png" width="300px">
+        </div>
+
+        <div class="block">
+        </div>
+
+        <div class="form">
+            <form name="gamersForm">
+                <div class="form-group">
+                    <label for="name"><span class="user_name">Write your name!</span></label>
+                    <input type="text" id="name" name="name" maxlength="8" required></input>
+                </div>
+
+                <br>
+                <input id="saveButton" type="button" value="Save and begin">
+            </form>
+
+            <div class="content">
+                <div id="content" class='small_div'>
+                    <!-- Текстовый див -->
+                </div>
+                <div id="number" class='small_div'>
+                    <!-- Число попыток -->
+                </div>
+                <div id="timer" class='small_div'>
+                    <!-- Таймер -->
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <section>
+        <!-- here the Game -->
+    </section>
+
+
+    <table id="gamersTable">
+
+    </table>
+
+
+    <script src="scripts.js">
+    </script>
+</body>
+
+</html>
