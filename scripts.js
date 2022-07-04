@@ -7,7 +7,7 @@ let timerPila = setInterval(function () {
   // сколько времени прошло с начала анимации?
   let timePassed = Date.now() - start;
 
-  if (timePassed >= 2400) {
+  if (timePassed >= 1950) {
     clearInterval(timer); // закончить анимацию через 2 секунды
     return;
   }
@@ -78,12 +78,6 @@ function refresh() {
     option.style.visibility = "visible";
     option.append(btnAgain);
     btnRepet();
-    /* saveButton.addEventListener("click", function () {
-            console.log('form.mame.value');
-            addRow(gamersForm.name.value,
-                n,
-                value);
-        });*/
   }
 
   // Кнопка рестарт
